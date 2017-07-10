@@ -1,1 +1,2 @@
-Using ARGV hello worl
+name = ARGV.first || "World"
+puts "Hello, #{name}!"
